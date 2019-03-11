@@ -4,4 +4,9 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("The ma):in page")
+
+def info(request):
+    return HttpResponse("This is second")
+
+
