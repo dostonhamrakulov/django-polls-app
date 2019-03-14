@@ -1,5 +1,5 @@
-{% if question_id %}
-    <p>You're looking at the details of the question {{ question_id }}</p>
+{% if question %}
+    <p>You're looking at the details of the question: <br> {{ question }}</p>
 {% else %}
     <p>No detail for question {{ question_id }}</p>
 {% endif %}
