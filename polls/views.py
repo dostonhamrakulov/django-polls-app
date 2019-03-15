@@ -35,9 +35,13 @@ def detail(request, question_id):
 
     return render(request, 'polls/detail.html', {'question': question})
 
+# def results(request, question_id):
+#     context = {'question_id': question_id}
+#     return render(request, 'polls/results.html', context)
+
 def results(request, question_id):
-    context = {'question_id': question_id}
-    return render(request, 'polls/results.html', context)
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/results.html', {'question': question})
 
 # def vote(request, question_id):
 #     context = {'question_id': question_id}
