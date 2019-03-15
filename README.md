@@ -6,12 +6,12 @@ The app is being created by following documentation of Django
 
 ### Programming languages and frameworks
 ```[Python, Django]
-// Python, Django
+Python, Django
 ```
 
 ### IDE
 ```[Pycharm, Vim]
-// PyCharm, Vim
+PyCharm, Vim
 ```
 
 ## Author
