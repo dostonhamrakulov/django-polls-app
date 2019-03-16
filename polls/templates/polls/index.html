@@ -1,3 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+</head>
+<body>
+
+<h1>This is a Heading</h1>
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -7,3 +19,9 @@
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+</body>
+</html>
+
+
+
