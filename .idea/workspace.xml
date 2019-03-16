@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c098c03c-d880-469f-9328-2564d15e48bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="c098c03c-d880-469f-9328-2564d15e48bb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="150">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding>
                 <element signature="e#408#475#0" expanded="true" />
               </folding>
@@ -28,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -141,9 +138,9 @@
         <option value="$PROJECT_DIR$/polls/templates/polls/detail.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/results.html" />
         <option value="$PROJECT_DIR$/polls/urls.py" />
-        <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/models.py" />
         <option value="$PROJECT_DIR$/polls/tests.py" />
+        <option value="$PROJECT_DIR$/polls/views.py" />
       </list>
     </option>
   </component>
@@ -239,12 +236,12 @@
       <workItem from="1552335162208" duration="4555000" />
       <workItem from="1552596370150" duration="4419000" />
       <workItem from="1552681787900" duration="2583000" />
-      <workItem from="1552776098939" duration="846000" />
+      <workItem from="1552776098939" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12403000" />
+    <option name="totallyTimeSpent" value="12498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="32" width="1318" height="736" extended-state="6" />
@@ -318,16 +315,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#408#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -403,6 +390,16 @@
           <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="e#408#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
