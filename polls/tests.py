@@ -2,6 +2,7 @@ import datetime
 
 from django.test import TestCase
 from django.utils import timezone
+from django.views import generic
 
 from .models import Question
 from django.urls import reverse
@@ -101,3 +102,11 @@ class QuestionIndexViewTests(TestCase):
             response.context['latest_question_list'],
             ['<Question: Past question 2.>', '<Question: Past question 1.>']
         )
+
+class DetailView(generic.DetailView):
+    ...
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Question.objects.filter(pub_date__lte=timezone.now())
