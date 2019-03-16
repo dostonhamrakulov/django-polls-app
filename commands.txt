@@ -1,0 +1,18 @@
+Tutorial_1:
+$ python manage.py migrate
+$ python manage.py makemigrations polls
+$ python manage.py sqlmigrate polls 0001
+$ python manage.py migrate
+$ python manage.py shell
+
+$ python manage.py createsuperuser
+$ python manage.py runserver
+
+Tutorial_2:
+$
+Tutorial_3:
+$
+Tutorial_4:
+$
+Tutorial_5:
+$ python manage.py test polls
