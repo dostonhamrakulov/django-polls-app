@@ -13,15 +13,6 @@ class IndexView(generic.ListView):
         """Return the last five published questions."""
         return Question.objects.order_by('-pub_date')[:5]
 
-# def detail(request, question_id):
-    # try:
-    #     question = Question.objects.get(pk=question_id)
-    # except Question.DoesNotExist:
-    #     raise Http404("Question does not exist")
-
-    # question = get_object_or_404(Question, pk=question_id)
-    #
-    # return render(request, 'polls/detail.html', {'question': question})
 class DetailView(generic.DetailView):
     ...
     def get_queryset(self):
@@ -30,21 +21,9 @@ class DetailView(generic.DetailView):
         """
         return Question.objects.filter(pub_date__lte=timezone.now())
 
-# def results(request, question_id):
-#     context = {'question_id': question_id}
-#     return render(request, 'polls/results.html', context)
-
 class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/results.html'
-
-# def results(request, question_id):
-#     question = get_object_or_404(Question, pk=question_id)
-#     return render(request, 'polls/results.html', {'question': question})
-
-# def vote(request, question_id):
-#     context = {'question_id': question_id}
-#     return render(request, 'polls/vote.html', context)
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
