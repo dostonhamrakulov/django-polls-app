@@ -16,3 +16,8 @@ Tutorial_4:
 $
 Tutorial_5:
 $ python manage.py test polls
+
+
+
+The app will be published in heroku:
+
